@@ -1,0 +1,537 @@
+@media screen and (max-width:991px){
+
+    h1{ 
+        /* padding: 15px; */
+        letter-spacing: 4.5px;
+        
+    }
+
+    header h1{
+        font-size: 50px;
+
+    }
+
+    header h1::first-letter {
+        font-size: 80px;
+        
+    }
+
+    .crypto-project,
+    .crypto-airdrop {
+
+        margin:15px ;
+        padding:30px;
+        width: 50%;
+
+    }
+
+    .list-item li {
+
+        font-size: 20px;
+
+    }
+
+    h2{
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-top: 0; 
+    }
+
+    .container-p p {
+
+        margin: 35px;
+        padding: 60px;
+        font-size: 1.2rem;
+    }
+
+    .container-p p::before {
+    font-size: 17px;
+    }
+
+    .container-img img {
+        width: 120px;
+
+    }
+
+    .crypto-img {
+        gap: 15px;
+
+    }
+
+    .container-site{
+        margin: 25px
+    }
+
+
+       
+    .faq-section{
+
+            margin: 20px;
+            padding: 30px;
+            gap: 45px;
+    }
+
+    .faq-section h4{
+
+        font-size: 1.9rem;
+
+    }
+
+    .faq-section h5{
+
+        font-size: 1.6rem;
+
+    }
+
+
+    .faq-section p{
+
+        font-size: 1.3rem;
+
+    }
+
+    .footer-distributed .footer-center p{
+        display: block;
+        margin: 5px;
+    }
+
+    .footer-distributed .footer-company-about span{
+        font-size: 18px;
+    }
+
+
+
+    .contacts-btn {  width: 50px;
+        height: 50px;
+        
+        right: 15px;
+        bottom:50px;
+        border-radius: 50%;
+        
+    
+        
+        
+    }
+    
+    .contacts-btn img{
+        width: 35px;
+        
+        margin-top: 8px;
+        margin-left: 7.8px;
+        
+        
+    
+        
+    }
+
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+
+    h1{ 
+        /* padding: 10px; */
+        font-size: 30px;
+        letter-spacing: 4.7px;
+    }
+
+    
+
+    
+
+    header h1{
+        font-size: 30px;
+
+    }
+
+    header h1::first-letter {
+        font-size: 60px;
+        
+    }
+
+    .crypto-project
+    .crypto-airdrop {
+
+        margin:10px ;
+        padding:20px;
+        width: 50%;
+
+    }
+
+    .list-item li {
+
+        font-size: 18px;
+
+    }
+
+    h2{
+        font-size: 17px;
+        padding: 7px 10px;
+        margin-top: 0; 
+    }
+
+    .container-p p {
+
+        margin: 25px;
+        padding: 35px;
+        font-size: 1.1rem;
+    }
+
+    .container-p p::before {
+    font-size: 15px;
+    }
+
+    .container-img img {
+        width: 67px;
+
+    }
+
+    .crypto-img {
+        gap: 5px;
+
+    }
+
+    .container-site{
+        margin: 20px
+    }
+
+
+       
+    .faq-section{
+
+            margin: 15px;
+            padding: 20px;
+            gap: 31px;
+    }
+
+    .faq-section h4{
+
+        font-size: 1.6rem;
+
+    }
+
+    .faq-section h5{
+
+        font-size: 1.4rem;
+
+    }
+
+
+    .faq-section p{
+
+        font-size: 1.2rem;
+
+    }
+
+    .footer-distributed .footer-center p{
+        display: block;
+        margin: 9px;
+    }
+
+    .footer-distributed .footer-company-about span{
+        font-size: 18px;
+    }
+
+    .list-item li:hover{
+    
+        transform: translate(20px);
+        background: linear-gradient(to left, #e1eff6 ,#54defd);
+        height: 25px;
+        
+        
+        
+        
+    }
+
+
+    .contacts-btn {  width: 50px;
+        height: 50px;
+        
+        right: 15px;
+        bottom:30px;
+        border-radius: 50%;
+        
+    
+        
+        
+    }
+    
+    .contacts-btn img{
+        width: 35px;
+        
+        margin-top: 8px;
+        margin-left: 8px;
+        
+        
+    
+        
+    }
+    
+}
+
+
+@media screen and (max-width:479px) {
+
+    
+    h1{ 
+        padding:0;
+        margin: 2;
+        font-size: 20px;
+        letter-spacing: 4.9px;
+        text-align: center;
+        
+    }
+
+
+    header h1{
+        font-size:18px;
+
+    }
+
+    header h1::first-letter {
+        font-size: 45px;
+        
+    }
+
+    
+
+    .container-flex{
+        flex-wrap: wrap;
+        gap: 20PX;
+        flex-direction: column-reverse;
+        
+        
+    }
+
+
+    .crypto-project,
+    .crypto-airdrop {
+
+        margin:5px ;
+        padding:15px;
+        width: 100%;
+        height: 100%;
+        
+        
+        
+
+    }
+
+   
+    
+        
+       
+    
+
+
+    
+    .list-item li {
+
+        font-size: 16px;
+        margin: 30PX;
+    
+
+    }
+
+    h2{
+        font-size: 16px;
+        padding: 7px 10px;
+        margin-top: 0; 
+        
+    }
+
+    .container-p p {
+
+        margin: 20px;
+        padding: 23px;
+        font-size: 1rem;
+    }
+
+    .container-p p::before {
+    font-size: 13px;
+    }
+
+    .container-img img {
+        width: 100PX;
+        margin: 8PX;
+        padding: 2PX;
+        
+    }
+
+    .crypto-img{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+
+    .container-site{
+        margin: 15px
+    }
+
+
+       
+    .faq-section{
+
+            margin: 5px;
+            padding: 20px;
+            gap: 23px;
+    }
+
+    .faq-section h4{
+
+        font-size: 1.3rem;
+
+    }
+
+    .faq-section h4::first-letter{
+        font-size: 2.1rem;
+        
+    }
+
+    .faq-section h5{
+
+        font-size: 1.2rem;
+
+    }
+
+    .faq-section h5::first-letter{
+        font-size: 1.8rem;
+    
+    }
+
+
+    .faq-section p{
+
+        font-size: 1.1rem;
+
+    }
+
+    .footer-distributed .footer-center p{
+        display: block;
+        margin: 9px;
+    }
+
+    .footer-distributed .footer-company-about span{
+        font-size: 18px;
+    }
+
+
+    .footer-distributed h3{
+        font-size: 30PX;
+    }
+
+    .footer-distributed h3 span{
+        font-size: 30PX;
+    }
+
+
+    .list-item li:hover{
+    
+        transform: translate(20px);
+        background: linear-gradient(to left, #e1eff6 ,#54defd);
+        height: 22px;
+        
+        
+        
+    }
+
+
+    .contacts-btn { 
+         width: 35px;
+        height: 35px;
+        
+        right: 13px;
+        bottom:25px;
+        border-radius: 50%;
+        
+    
+        
+        
+    }
+    
+    .contacts-btn img{
+        width: 30px;
+        
+        margin-top: 3.1px;
+        margin-left: 2.7px;
+        border-radius: 50%;
+         margin-bottom: px;
+        
+        
+    
+        
+    }
+
+
+
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

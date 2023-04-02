@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@400;700&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Lato:wght@400;700&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Lato:wght@400;700&family=Mitr&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Itim&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Itim&family=Jost&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Cormorant:wght@300&family=Itim&family=Jost&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&family=Rokkitt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Cormorant:wght@300&family=Itim&family=Jost&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto+Mono&family=Roboto+Slab:wght@500&family=Rokkitt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Cinzel:wght@500&family=Cormorant:wght@300&family=Itim&family=Jost&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500&family=Roboto+Mono&family=Roboto+Slab:wght@500&family=Rokkitt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Caveat&family=Cinzel:wght@500&family=Cormorant:wght@300&family=Itim&family=Jost&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500&family=Roboto+Mono&family=Roboto+Slab:wght@500&family=Rokkitt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Bree+Serif&family=Caveat&family=Cinzel:wght@500&family=Cormorant:wght@300&family=Itim&family=Jost&family=Lato:wght@400;700&family=Mitr:wght@200&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500;700&family=Roboto+Mono&family=Roboto+Slab:wght@500&family=Rokkitt:wght@300&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: auto;
+}
+
+body {
+     background: linear-gradient(to left, #e5b3fe, #c0fdff);  
+
+}
+
+.flex{
+    display: flex;
+    
+}
+
+header{
+        margin: 29px;  
+        padding: 19px;
+        text-align: center;
+        background: linear-gradient(to right, #006494, #051923);
+        margin-inline: auto;
+        overflow: hidden;
+         font-family: 'Itim', cursive; 
+        margin-top: 0;
+        border: 5px;
+         font-size: 50px;
+        color: #fabc3c;
+        align-items: center;
+        letter-spacing: 6PX;
+
+}
+
+header h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-family:'Poppins', sans-serif;
+    font-size: 60px;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+
+    
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+    header h1::first-letter {
+    font-size: 90px;
+    
+}
+
+.container-flex{
+    display: flex;
+     justify-content: space-evenly; 
+    /* background-image: url(https://www.pngitem.com/pimgs/m/97-979675_crypto-airdrops-hd-png-download.png); */
+    /* background: linear-gradient(to left, #e5b3fe, #c0fdff); */
+    background-repeat: unset;
+    margin-top: -29px; 
+    overflow: hidden;
+    padding: 30px; 
+    background-image: url(https://blog.okcoin.com/wp-content/uploads/2020/09/OKCoin-bitcoin-airdrop-free-BTC.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+
+
+
+
+
+
+
+}
+
+.crypto-project,
+.crypto-airdrop {
+     margin: 30px;  
+     padding: 60px;
+     height: 500px;
+     /* background: linear-gradient(to right, #fad643, #72efdd);   */
+     /* background-color: #ffffff09;  */
+     /* background: linear-gradient(to right,#ffffffff,#ffffff33);  */
+     background: linear-gradient(to right, #fad643,#ffffff09);   
+    backdrop-filter: blur(3px);
+     /* border: 1px solid black;  */
+    border-radius: 35px;
+    box-shadow: 2px 2px 5px #2773a5;
+    
+
+
+
+
+}
+
+.list-item li  {
+    margin: 40px; 
+    font-family: 'Bree Serif', serif;
+    font-size: 23px;
+     transition: 0.5s ease; 
+    border-radius: 12px;
+    
+    color: black;
+    
+    
+    
+    
+}
+
+
+
+.list-item a{
+    text-decoration-line: none;
+    
+}
+
+
+
+.list-item li:hover{
+    
+    transform: translate(20px);
+    background: linear-gradient(to left, #e1eff6 ,#54defd);
+    height: 38px;
+    
+    
+    
+}
+
+
+h2 {
+      margin-top: -30px; 
+      font-size: 24px; 
+      text-align: center;
+     color:lightseagreen;
+     background-color: #051923;
+     padding: 15px; 
+     border-radius: 20px;
+     box-shadow: 2px 2px 3px #8eecf5;
+     transition: 0.2s ease;
+
+}
+
+
+h2:hover{
+    transform: scale(1.1);
+    background-color: #14213d;
+    color: #fff;
+    
+    
+}
+
+
+
+
+
+
+
+/* paragraph-section */
+
+.container-p p {
+     margin: 50px; 
+     padding: 80px; 
+     font-size: 1.4rem;
+    text-align: center;
+    background: linear-gradient(to left, #184e77, #34a0a4);
+    color: white;
+    font-family: 'Open Sans', sans-ser;
+    letter-spacing: 1.2px;
+    word-spacing: 1.5px;
+    line-height: 2;
+     border-radius: 34px; 
+    text-shadow: 4px, 4px white;
+    box-shadow: 2px 2px 5px #184e77;
+    transition: 2s ease;
+    
+}
+
+.container-p p::before {
+    content: '*';
+    color: red;
+    font-size: 25px;
+   
+}
+
+
+
+/* paragraph-section end */
+
+
+
+
+/* Crypto Images */
+
+.container-img img {
+    width:150px; 
+    border-radius: 50%;
+    transition: 2s ease;
+   
+   
+    
+    
+    
+}
+
+.container-img img:hover{
+    transform: rotate(180deg);
+    /* background-color: orange; */
+    
+    
+
+}
+
+
+
+
+.crypto-img {
+
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 35px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.icon1 img:hover{
+    background-color: orange;
+}
+
+.icon2 img:hover{
+    background-color:#3a86ff;
+}
+
+.icon3 img:hover{
+    background-color: white;
+}
+
+.icon4 img:hover{
+    background-color: #ffc300;
+}
+
+.icon5 img:hover{background-color: #3b60e4;
+}
+
+
+
+
+
+
+
+/* crypto images end */
+
+
+
+
+/* faq section */
+
+
+.container-site{
+    
+  margin: 60px;
+   
+
+    
+    
+}
+
+.faq-section{
+    
+     margin: 30px;
+     padding: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+     gap: 75px;
+   
+    background: linear-gradient(to right, #e5b3fe, #c0fdff);
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: 2px 2px 5px #e5b3fe;
+    
+}
+
+.faq-section h4{
+    font-size: 2.2rem; 
+    
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 15px
+
+}
+
+.faq-section h4::first-letter{
+    font-size: 3.1rem;
+    
+}
+
+.faq-section h5{
+    font-size: 1.8rem; 
+   
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 10px;
+}
+
+.faq-section h5::first-letter{
+    font-size: 2.3rem;
+
+}
+
+.faq-section p{
+    font-size: 1.4rem;
+    font-family: 'Rokkitt', serif;
+    word-spacing: 4px;
+    letter-spacing: 0.2px;
+    font-weight: 50px;
+    
+    
+}
+
+
+/* faq section end */
+
+
+/* contact btn */
+
+.contacts-btn {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right ,#00b4d4 ,#ffffff);
+    box-shadow: 2px 2px 5px #2773a5;
+    backdrop-filter: blur(3px);
+    transition: 2s ease;
+}
+
+.contacts-btn img{
+    width: 45px;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 7.8px;
+    animation: up-down 1s ease infinite alternate;
+   
+    
+    
+
+    
+}
+
+.contacts-btn:hover{
+    background:linear-gradient( to right ,#bde0fe, #ffffff)
+}
+
+
+
+
+
+
+
+
+
+@keyframes up-down {
+
+    from{
+        transform: rotate(0deg);
+    }
+
+    
+    to{
+        transform: rotate(40deg);
+    }
+    
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+/* footer section */
+
+
+
+
+
+
+footer{
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: #184e77;
+    color: white;
+    background-image: url(images/bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    
+    
+
+   
+   
+    
+}
+
+
+.footer-distributed{
+
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 49px 50px;
+
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+    
+    
+    
+}
+
+
+/* footer-left */
+
+.footer-distributed .footer-left{
+     width: 35%
+}
+
+.footer-distributed h3{
+	color:white;
+	font-family: 'Caveat', cursive;
+    font-size: 36px;
+	margin: 0; 
+    margin-bottom: 10px;
+}
+
+.footer-distributed h3 span{
+	color: lightseagreen
+}
+
+.footer-distributed .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	 margin: 0; 
+}
+
+/* footer-center */
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+    
+}
+
+.footer-distributed .footer-center i{
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+     text-align: center;
+    line-height: 42px;
+    margin: 10px 15px; 
+    vertical-align: middle; 
+    transition: 0.5s ease;
+    
+
+
+    
+}
+
+.footer-distributed .footer-center i:hover{
+    background-color: #839788;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 20px;
+	line-height: 38px;
+}
+
+
+
+
+
+
+
+
+
+.footer-distributed .footer-center p{
+    display: inline-block; 
+    font-weight: 400;
+    vertical-align: middle;
+    
+    
+}
+
+.footer-distributed .footer-center p span{
+    display: block;
+    font-weight:normal;
+    font-size: 14px;
+     line-height: 2;
+    
+}
+
+#country{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1;
+    
+}
+
+.footer-distributed .footer-center p a{
+	 
+     /* color: white;  */
+     color: white;
+	text-decoration: none;
+     transition: 0.5s ease;
+     text-decoration-line: none;
+
+}
+
+.footer-distributed .footer-center a{
+    text-decoration: none;
+}
+
+.footer-distributed .footer-center p a:hover{
+    color:lightseagreen;
+    
+}
+
+.footer-center p{
+    color: white;
+    transition: 0.5s ease;
+}
+
+.footer-center p:hover{
+    color: lightseagreen;
+}
+
+
+
+
+
+
+/* footer right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+
+    line-height:20px;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    color: #92999f;
+
+
+
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    color: white;
+
+    
+}
+
+
+.footer-distributed .footer-icons{
+	margin-top: 8%;
+}
+
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+	border-radius: 2px;
+    
+
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    transition: 0.5s ease;
+
+
+
+}
+
+.footer-distributed .footer-icons a:hover{
+    background-color: #839788;
+}
+
+
+
+
+
+
+
+
+
+
+  
